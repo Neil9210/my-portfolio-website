@@ -1,13 +1,37 @@
 body{
-    font-family: Arial;
-    margin: 20px;
-    background:#f2f2f2;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.container{
+    max-width:800px;
+    background:white;
+    margin:30px auto;
+    padding:25px;
+    border-radius:8px;
 }
 
 h1{
-    color:#333;
+    text-align:center;
+    color:#222;
+}
+
+.contact{
+    text-align:center;
+    color:#555;
 }
 
 h2{
     color:#0077b6;
+    border-bottom:1px solid #ddd;
+    padding-bottom:5px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+hr{
+    margin:20px 0;
 }
